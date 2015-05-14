@@ -1,0 +1,64 @@
+Gabarit de guide d'instructions pas à pas de référence
+=====================================================
+Loïc Fejoz <loic@fejoz.net>
+v0.0, Mai 2015
+:data-uri:
+:icons:
+:iconsdir: /usr/share/asciidoc/icons/
+:lang: fr
+:encoding: utf-8
+
+Operation::
+  Renseigner ici le nom de l'opération à effectuer
+Composants::
+  * lister ici les composants nécessaires
+  * composant1
+Outils et matériaux::
+  * lister les outils nécessaires
+  * outil1
+Équipements de sécurité requis::
+  * lister les equipements de sécurité
+  * équipement1
+
+== Steps
+
+[role='steps withheaders withexplanations']
+1. titre
+  what::
+    Étapes importantes
+  how::
+    Points importants
+  why::
+    Raisons
+2. explication
+  what::
+    __Ce qui est fait__ +
+    A logical segment of the operation when something happens to advance the work.
+  how::
+    __Comment faire__ +
+    Tout ce qui dans une étape peut
+    - [critical-check]#Faire échouer l'opération#,
+    - [quantity-check]#Les quantités à vérifier#,
+    - [injury]#Blesser l'opérateur#,
+    - [easier]#Faciliter l'opération#, c-à-d les ``trucs'', ``astuces'', timing à respecter, information d'importance.
+  why::
+    __Pourquoi faire ainsi__ +
+    L'explication du comment faire.
+3. étape
+  what::
+    Écrire ici la description de la première étape.
+  how::
+    Écrire ici comment réaliser la première étape.
+  why::
+    Expliquer ici pourquoi réaliser la première étape ainsi.
+    
+== Key points reminders
+
+|=======
+|[critical-check]#Inspection ou vérification critique# |[quantity-check]#Quantités à vérifier# |[injury]#Blessure et dommages corporels# | [easier]#Facilite le travail#
+|=======
+
+[quote, anonymous]
+______________________________________________________________
+Si l'élève n'a pas appris, l'instructeur n'a pas enseigné.
+______________________________________________________________
