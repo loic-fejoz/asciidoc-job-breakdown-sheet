@@ -4,6 +4,7 @@ Loïc Fejoz <loic@fejoz.net>
 v0.0, Mai 2015
 :data-uri:
 :icons:
+:iconsdir: /usr/share/asciidoc/icons/
 :lang: en
 :encoding: utf-8
 
@@ -21,7 +22,7 @@ Safety equipment required::
 
 == Steps
 
-[role='steps withheaders']
+[role='steps withheaders withexplanation']
 1. step
   what::
     Important steps
@@ -36,9 +37,10 @@ Safety equipment required::
   how::
     __How it is done__ +
     Anything in a step that might
-    - Make or break the job,
-    - Injure the worker,
-    - Make the work easier to do, ie ``knack'', ``trick'', special timing, bit of special information.
+    - [critical-check]#Make or break the job#,
+    - [quantity-check]#Quantity check#,
+    - [injury]#Injure the worker#,
+    - [easier]#Make the work easier to do#, ie ``knack'', ``trick'', special timing, bit of special information.
   why::
     __Why it is done__ +
     The reason for the key points.
@@ -49,3 +51,15 @@ Safety equipment required::
     Explain here how to do first step.
   why::
     Explain here why the step is better done the way it is described.
+    
+== Key points reminders
+
+|=======
+|[critical-check]#Critical check or inspection# |[quantity-check]#Quantity check# |[injury]#Could injure the person# | [easier]#Make the work easier#
+|=======
+
+[quote, anonymous]
+____________________________________________________________
+If the person hasn't learned, the instructor hasn't taught.
+____________________________________________________________
+

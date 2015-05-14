@@ -48,3 +48,44 @@
     font-weight: bold;
     text-align: center;
 }
+
+/* second row can be used as explanation */
+
+.steps.withheaders.withexplanation > ol > li:nth-of-type(2) > div > dl:first-of-type:before {
+    content: "";
+    counter-increment: steps -1;
+}
+
+.steps.withheaders.withexplanation > ol > li:nth-of-type(2) {
+
+}
+
+/* Thanks to Font Awesome by Dave Gandy - http://fontawesome.io */
+
+.injury:before {
+    font-family: FontAwesome;
+    content: "";
+    float: left;
+    margin-right: 0.5em;
+}
+
+.quantity-check:before {
+    font-family: FontAwesome;
+    content: "";
+    float: left;
+    margin-right: 0.5em;
+}
+
+.critical-check:before {
+    font-family: FontAwesome;
+    content: "";
+    float: left;
+    margin-right: 0.5em;
+}
+
+.easier:before {
+    font-family: FontAwesome;
+    content: "";
+    float: left;
+    margin-right: 0.5em;
+}

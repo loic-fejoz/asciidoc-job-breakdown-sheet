@@ -16,6 +16,11 @@ This project aims at providing templates that are:
 * help to focus on important instructions,
 * produce nice looking documentation in several formats.
 
+License
+-------
+
+License is GPL v2, same as asciidoc, (see LICENSE file).
+It is meant that only the template and style has such license, ie your final document is whatever license you want.
 
 System Requirements
 ----------------------

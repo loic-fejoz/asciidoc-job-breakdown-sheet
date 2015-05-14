@@ -1,13 +1,14 @@
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
 current_dir := $(dir $(mkfile_path))
 
-all: template.html
+all: template-en.html
 
-%.html: %.asciidoc
-	asciidoc -b html5 -a stylesheet=$(current_dir)asciidoc-jbs.css  $^
+%.html: %.asciidoc $(current_dir)asciidoc-jbs.css
+	asciidoc -b html5 -a icons -a stylesheet=$(current_dir)asciidoc-jbs.css  $<
+
 
 clean:
 	rm -f *~
 
 distclean: clean
-	rm -f template.html
+	rm -f template-en.html

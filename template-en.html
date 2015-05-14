@@ -590,6 +590,47 @@ body.manpage div.sectionbody {
     font-weight: bold;
     text-align: center;
 }
+
+/* second row can be used as explanation */
+
+.steps.withheaders.withexplanation > ol > li:nth-of-type(2) > div > dl:first-of-type:before {
+    content: "";
+    counter-increment: steps -1;
+}
+
+.steps.withheaders.withexplanation > ol > li:nth-of-type(2) {
+
+}
+
+/* Thanks to Font Awesome by Dave Gandy - http://fontawesome.io */
+
+.injury:before {
+    font-family: FontAwesome;
+    content: "";
+    float: left;
+    margin-right: 0.5em;
+}
+
+.quantity-check:before {
+    font-family: FontAwesome;
+    content: "";
+    float: left;
+    margin-right: 0.5em;
+}
+
+.critical-check:before {
+    font-family: FontAwesome;
+    content: "";
+    float: left;
+    margin-right: 0.5em;
+}
+
+.easier:before {
+    font-family: FontAwesome;
+    content: "";
+    float: left;
+    margin-right: 0.5em;
+}
 </style>
 <script type="text/javascript">
 /*<![CDATA[*/
@@ -863,7 +904,7 @@ equipment1
 <div class="sect1">
 <h2 id="_steps">Steps</h2>
 <div class="sectionbody">
-<div class="olist arabic steps withheaders"><ol class="arabic">
+<div class="olist arabic steps withheaders withexplanation"><ol class="arabic">
 <li>
 <p>
 step
@@ -920,17 +961,22 @@ how
 <div class="ulist"><ul>
 <li>
 <p>
-Make or break the job,
+<span class="critical-check">Make or break the job</span>,
 </p>
 </li>
 <li>
 <p>
-Injure the worker,
+<span class="quantity-check">Quantity check</span>,
 </p>
 </li>
 <li>
 <p>
-Make the work easier to do, ie &#8220;knack&#8221;, &#8220;trick&#8221;, special timing, bit of special information.
+<span class="injury">Injure the worker</span>,
+</p>
+</li>
+<li>
+<p>
+<span class="easier">Make the work easier to do</span>, ie &#8220;knack&#8221;, &#8220;trick&#8221;, special timing, bit of special information.
 </p>
 </li>
 </ul></div>
@@ -980,13 +1026,42 @@ why
 </ol></div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_key_points_reminders">Key points reminders</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all"
+style="
+width:100%;
+">
+<col style="width:25%;">
+<col style="width:25%;">
+<col style="width:25%;">
+<col style="width:25%;">
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><span class="critical-check">Critical check or inspection</span></p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><span class="quantity-check">Quantity check</span></p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><span class="injury">Could injure the person</span></p></td>
+<td class="tableblock halign-left valign-top" ><p class="tableblock"><span class="easier">Make the work easier</span></p></td>
+</tr>
+</tbody>
+</table>
+<div class="quoteblock">
+<div class="content">
+<div class="paragraph"><p>If the person hasn&#8217;t learned, the instructor hasn&#8217;t taught.</p></div>
+</div>
+<div class="attribution">
+&#8212; anonymous
+</div></div>
+</div>
+</div>
 </div>
 <div id="footnotes"><hr></div>
 <div id="footer">
 <div id="footer-text">
 Version 0.0<br>
 Last updated
- 2015-05-14 15:02:52 CEST
+ 2015-05-14 20:24:15 CEST
 </div>
 </div>
 </body>
