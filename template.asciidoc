@@ -1,0 +1,51 @@
+Job Instruction Breakdown Sheet Asciidoc Template
+=================================================
+Loïc Fejoz <loic@fejoz.net>
+v0.0, Mai 2015
+:data-uri:
+:icons:
+:lang: en
+:encoding: utf-8
+
+Operation::
+  Write here the name of the job
+Parts::
+  * list parts to use
+  * part1
+Tools & Material::
+  * list tools to use
+  * tool1
+Safety equipment required::
+  * list safety equipment to use
+  * equipment1
+
+== Steps
+
+[role='steps withheaders']
+1. step
+  what::
+    Important steps
+  how::
+    Key points
+  why::
+    Reasons
+2. step
+  what::
+    __What is done__ +
+    A logical segment of the operation when something happens to advance the work.
+  how::
+    __How it is done__ +
+    Anything in a step that might
+    - Make or break the job,
+    - Injure the worker,
+    - Make the work easier to do, ie ``knack'', ``trick'', special timing, bit of special information.
+  why::
+    __Why it is done__ +
+    The reason for the key points.
+3. step
+  what::
+    Write here first step's description.
+  how::
+    Explain here how to do first step.
+  why::
+    Explain here why the step is better done the way it is described.

@@ -1,0 +1,50 @@
+.steps > ol > li {
+    counter-increment: steps;
+}
+
+.steps > ol > li > div > dl:before {
+    content: counter(steps)". ";
+    float: left;
+    margin-right: 0.5em;
+}
+
+.steps > ol {
+    list-style-type: none;
+    counter-reset: steps;
+}
+
+.steps > ol > li > div > dl {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.steps > ol > li > div > dl > dt {
+    display: none;
+    visibility: hidden;
+}
+
+.steps > ol > li > div > dl > dd {
+    display: inline-block;
+    width: 66%;
+}
+
+.steps > ol > li > p:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+/* First row can be used as table headers */
+
+.steps.withheaders > ol > li:first-of-type > div > dl:first-of-type:before {
+    content: "";
+    counter-increment: steps -1;
+}
+
+.steps.withheaders > ol > li:first-of-type {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 110%;
+    font-weight: bold;
+    text-align: center;
+}
