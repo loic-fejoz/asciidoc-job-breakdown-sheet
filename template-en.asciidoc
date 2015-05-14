@@ -22,7 +22,7 @@ Safety equipment required::
 
 == Steps
 
-[role='steps withheaders withexplanation']
+[role='steps withheaders withexplanations']
 1. step
   what::
     Important steps

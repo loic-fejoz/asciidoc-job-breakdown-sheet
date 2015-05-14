@@ -51,12 +51,12 @@
 
 /* second row can be used as explanation */
 
-.steps.withheaders.withexplanation > ol > li:nth-of-type(2) > div > dl:first-of-type:before {
+.steps.withheaders.withexplanations > ol > li:nth-of-type(2) > div > dl:first-of-type:before {
     content: "";
     counter-increment: steps -1;
 }
 
-.steps.withheaders.withexplanation > ol > li:nth-of-type(2) {
+.steps.withheaders.withexplanations > ol > li:nth-of-type(2) {
 
 }
 
