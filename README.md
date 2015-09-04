@@ -32,8 +32,9 @@ Installation
 ------------
 
 1. `git clone https://github.com/loic-fejoz/asciidoc-job-breakdown-sheet.git`
-2. copy all or link all files to your directory
-3. Call asciidoc as specified in the Makefile
+2. `cd <yourdirectory> && echo "include ../asciidoc-job-breakdown-sheet/rules.mk" >> Makefile`
+3. Add your target into your Makefile
+4. `make`
 
 Contribute
 ----------
